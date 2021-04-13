@@ -8,10 +8,10 @@
 
 2. creat custom command 
 
-`
+```
   [Command("your command")]
   [Description("about your command")]
   public async Task Command(CommandContext ctx) {
     await ctx.RespondAsync("Hey");
   }
-`
+```
