@@ -2,9 +2,9 @@
 
 ## How to add commands
 1. create new class that extends IModule
-  
+`
     public class myCommands : IMoule
-  
+`  
 2. 
   [Command("your command")]
   [Description("about your command")]
